@@ -9220,17 +9220,17 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                             }, {
                                 quickReplyButton: {
                                     displayText: '𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 🔰',
-                                    id: 'allmenu'
+                                    id: '.allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: '𝙻𝙸𝚂𝚃𝙰 𝙼𝙴𝙽𝚄 🔰',
-                                    id: 'command'
+                                    id: '.command'
                                 }  
                             }, {
                                 quickReplyButton: {
                                     displayText: '𝙾𝚆𝙽𝙴𝚁 💎',
-                                    id: 'owner'
+                                    id: '.owner'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
