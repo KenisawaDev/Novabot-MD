@@ -8416,14 +8416,22 @@ break
 case 'ytad': {
    if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
-XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdreplay:{
+XeonBotInc.sendMessage(m.chat, {audio:{url:args[0]}, mimetype:"audio/mpeg", fileName: `a.mp3`,  quoted: m, contextInfo: { externalAdReply:{
+title:"dj bot",
+body:"DRIPS",
+showAdAttribution: true,
+mediaType:2,
+thumbnail: log0,
+mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+/*onBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdreplay:{
 title:`${global.botname}`,
 body:`${global.botname}`,
 thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
-}}}, {quoted:m})
+}}}, {quoted:m})*/
 }
 break
             case 'ytdl': {
